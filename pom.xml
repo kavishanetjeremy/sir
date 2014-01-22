@@ -65,10 +65,22 @@
 				<version>2.5</version>
 			</plugin>
 
-			
-		
+			<plugin>
 
-	</plugins>
+				<groupId>org.apache.maven.plugins</groupId>
+
+				<artifactId>maven-changelog-plugin</artifactId>
+			</plugin>
+
+
+
+		</plugins>
 
 	</reporting>
+	<scm>
+
+		<connection>scm:git:https://github.com/kavishanetjeremy/sir.git</connection>
+		<url>https://github.com/kavishanetjeremy/sir/blob/master/</url>
+
+	</scm>
 </project>
